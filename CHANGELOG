@@ -1,0 +1,35 @@
+# Test
+- added folder bdd to src/test/resources/bdd
+  - added datatblex.feature
+  - added simple.feature
+  - added folder conversation
+    - lineid.feature
+
+## Unit testing
+- entities package
+  - expanded EntityTest.java
+    - Added TypeTest.java
+    - Added InstanceOfTest.java
+    - Added EdgeHealthTest.java
+    - Added SetterTest.java
+    - Added package equip
+      - OneHandEquipTest.java
+      - OneHandUnEquipTest.java
+      - TwoHandEquipTest.java
+      - TwoHandUnEquipTest.java
+      - TwoWithOneHandEquipTest.java
+      - TwoWithOneHandUnEquipTest.java
+
+# POM
+- build command with profiles
+  - mvn clean test -P unit (runs unit tests)
+  - mvn clean test -P feature (runs cucumber tests)
+  - mvn clean test -P jacocoReport (runs jacoco)
+  - mvn clean exec:java -P prod (runs application)
+  - mvn clean exec:java (runs application)
+- upped jvm target 1.7 => 1.8
+- expanded properties
+- added cucumber support to surefire configuration
+- corrected ERROR when running test
+  - jacoco plugin configuration
+- Removed hamcrest dependency (not needed)

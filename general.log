@@ -1,0 +1,22 @@
+[2021-12-17 14:09:59 INFO]: install::setup-logging ended
+================
+[2021-12-17 14:09:59 INFO]: install::start-up started
+[2021-12-17 14:09:59 INFO]: install::decompress started
+[2021-12-17 14:09:59 INFO]: install::decompress ended
+================
+[2021-12-17 14:09:59 INFO]: install::start-up starting services
+[2021-12-17 14:09:59 INFO]: install::start-up ended
+================
+[2021-12-17 14:11:32 INFO]: install::root-check started
+[2021-12-17 14:11:32 INFO]: install::root-check ended
+================
+[2021-12-17 14:11:32 INFO]: install::docker-check started
+[2021-12-17 14:11:32 INFO]: install::docker-check ended
+================
+[2021-12-17 14:11:32 INFO]: install::tear-down started
+[2021-12-17 14:11:32 INFO]: install::compress started
+[2021-12-17 14:11:32 INFO]: install::compress ended
+================
+[2021-12-17 14:11:32 INFO]: install::tear-down starting services
+[2021-12-17 14:11:32 INFO]: install::tear-down ended
+================
